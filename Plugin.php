@@ -41,7 +41,6 @@ class Plugin extends Obj
 	 * 
 	 * @var string
 	 */
-
 	protected $_group = null;
 
 	/**

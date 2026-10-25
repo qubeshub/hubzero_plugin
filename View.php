@@ -249,7 +249,7 @@ class View extends AbstractView
 			'element' => $this->_element,
 			'name'    => ($name ? $name : $this->_name),
 			'layout'  => $layout,
-            'override_path' => $this->_overridePath
+			'override_path' => $this->_overridePath
 		));
 		$view->set('folder', $this->_folder)
 		     ->set('element', $this->_element);
